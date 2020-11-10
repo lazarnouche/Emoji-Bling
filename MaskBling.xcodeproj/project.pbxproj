@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0BD20B2543141300FC9BCA /* EmojiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BD2092543141300FC9BCA /* EmojiNode.swift */; };
+		4D0BD20C2543141300FC9BCA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BD20A2543141300FC9BCA /* StringExtension.swift */; };
+		4DD1C7DC2556FD030074C5FF /* MaskNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C7DB2556FD020074C5FF /* MaskNode.swift */; };
+		4DD1C7E12558148D0074C5FF /* FaceMaskNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C7E02558148C0074C5FF /* FaceMaskNode.swift */; };
+		4DFC64262542FDEA008CD7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC64252542FDEA008CD7F7 /* AppDelegate.swift */; };
+		4DFC64282542FDEA008CD7F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC64272542FDEA008CD7F7 /* SceneDelegate.swift */; };
+		4DFC642A2542FDEA008CD7F7 /* MaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC64292542FDEA008CD7F7 /* MaskViewController.swift */; };
+		4DFC642D2542FDEA008CD7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC642B2542FDEA008CD7F7 /* Main.storyboard */; };
+		4DFC642F2542FDED008CD7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC642E2542FDED008CD7F7 /* Assets.xcassets */; };
+		4DFC64322542FDED008CD7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFC64302542FDED008CD7F7 /* LaunchScreen.storyboard */; };
+		4DFC643D2542FDED008CD7F7 /* Emoji_BlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC643C2542FDED008CD7F7 /* Emoji_BlingTests.swift */; };
+		4DFC64482542FDEE008CD7F7 /* Emoji_BlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFC64472542FDEE008CD7F7 /* Emoji_BlingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DFC64392542FDED008CD7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFC641A2542FDEA008CD7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFC64212542FDEA008CD7F7;
+			remoteInfo = "Emoji Bling";
+		};
+		4DFC64442542FDEE008CD7F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DFC641A2542FDEA008CD7F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DFC64212542FDEA008CD7F7;
+			remoteInfo = "Emoji Bling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0BD2092543141300FC9BCA /* EmojiNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiNode.swift; sourceTree = "<group>"; };
+		4D0BD20A2543141300FC9BCA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		4DD1C7DB2556FD020074C5FF /* MaskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskNode.swift; sourceTree = "<group>"; };
+		4DD1C7E02558148C0074C5FF /* FaceMaskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaskNode.swift; sourceTree = "<group>"; };
+		4DFC64222542FDEA008CD7F7 /* MaskBling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskBling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFC64252542FDEA008CD7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DFC64272542FDEA008CD7F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DFC64292542FDEA008CD7F7 /* MaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewController.swift; sourceTree = "<group>"; };
+		4DFC642C2542FDEA008CD7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFC642E2542FDED008CD7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFC64312542FDED008CD7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFC64332542FDED008CD7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFC64382542FDED008CD7F7 /* MaskBlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskBlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFC643C2542FDED008CD7F7 /* Emoji_BlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_BlingTests.swift; sourceTree = "<group>"; };
+		4DFC643E2542FDED008CD7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFC64432542FDEE008CD7F7 /* MaskBlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskBlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFC64472542FDEE008CD7F7 /* Emoji_BlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_BlingUITests.swift; sourceTree = "<group>"; };
+		4DFC64492542FDEE008CD7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFC641F2542FDEA008CD7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC64352542FDED008CD7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC64402542FDEE008CD7F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFC64192542FDEA008CD7F7 = {
+			isa = PBXGroup;
+			children = (
+				4DFC64242542FDEA008CD7F7 /* Emoji Bling */,
+				4DFC643B2542FDED008CD7F7 /* Emoji BlingTests */,
+				4DFC64462542FDEE008CD7F7 /* Emoji BlingUITests */,
+				4DFC64232542FDEA008CD7F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFC64232542FDEA008CD7F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC64222542FDEA008CD7F7 /* MaskBling.app */,
+				4DFC64382542FDED008CD7F7 /* MaskBlingTests.xctest */,
+				4DFC64432542FDEE008CD7F7 /* MaskBlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFC64242542FDEA008CD7F7 /* Emoji Bling */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC64252542FDEA008CD7F7 /* AppDelegate.swift */,
+				4DFC64272542FDEA008CD7F7 /* SceneDelegate.swift */,
+				4DFC64292542FDEA008CD7F7 /* MaskViewController.swift */,
+				4DD1C7E02558148C0074C5FF /* FaceMaskNode.swift */,
+				4D0BD2092543141300FC9BCA /* EmojiNode.swift */,
+				4DD1C7DB2556FD020074C5FF /* MaskNode.swift */,
+				4D0BD20A2543141300FC9BCA /* StringExtension.swift */,
+				4DFC642B2542FDEA008CD7F7 /* Main.storyboard */,
+				4DFC642E2542FDED008CD7F7 /* Assets.xcassets */,
+				4DFC64302542FDED008CD7F7 /* LaunchScreen.storyboard */,
+				4DFC64332542FDED008CD7F7 /* Info.plist */,
+			);
+			path = "Emoji Bling";
+			sourceTree = "<group>";
+		};
+		4DFC643B2542FDED008CD7F7 /* Emoji BlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC643C2542FDED008CD7F7 /* Emoji_BlingTests.swift */,
+				4DFC643E2542FDED008CD7F7 /* Info.plist */,
+			);
+			path = "Emoji BlingTests";
+			sourceTree = "<group>";
+		};
+		4DFC64462542FDEE008CD7F7 /* Emoji BlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFC64472542FDEE008CD7F7 /* Emoji_BlingUITests.swift */,
+				4DFC64492542FDEE008CD7F7 /* Info.plist */,
+			);
+			path = "Emoji BlingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFC64212542FDEA008CD7F7 /* MaskBling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFC644C2542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBling" */;
+			buildPhases = (
+				4DFC641E2542FDEA008CD7F7 /* Sources */,
+				4DFC641F2542FDEA008CD7F7 /* Frameworks */,
+				4DFC64202542FDEA008CD7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskBling;
+			productName = "Emoji Bling";
+			productReference = 4DFC64222542FDEA008CD7F7 /* MaskBling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DFC64372542FDED008CD7F7 /* MaskBlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFC644F2542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBlingTests" */;
+			buildPhases = (
+				4DFC64342542FDED008CD7F7 /* Sources */,
+				4DFC64352542FDED008CD7F7 /* Frameworks */,
+				4DFC64362542FDED008CD7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFC643A2542FDED008CD7F7 /* PBXTargetDependency */,
+			);
+			name = MaskBlingTests;
+			productName = "Emoji BlingTests";
+			productReference = 4DFC64382542FDED008CD7F7 /* MaskBlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DFC64422542FDEE008CD7F7 /* MaskBlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFC64522542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBlingUITests" */;
+			buildPhases = (
+				4DFC643F2542FDEE008CD7F7 /* Sources */,
+				4DFC64402542FDEE008CD7F7 /* Frameworks */,
+				4DFC64412542FDEE008CD7F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFC64452542FDEE008CD7F7 /* PBXTargetDependency */,
+			);
+			name = MaskBlingUITests;
+			productName = "Emoji BlingUITests";
+			productReference = 4DFC64432542FDEE008CD7F7 /* MaskBlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFC641A2542FDEA008CD7F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4DFC64212542FDEA008CD7F7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4DFC64372542FDED008CD7F7 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4DFC64212542FDEA008CD7F7;
+					};
+					4DFC64422542FDEE008CD7F7 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4DFC64212542FDEA008CD7F7;
+					};
+				};
+			};
+			buildConfigurationList = 4DFC641D2542FDEA008CD7F7 /* Build configuration list for PBXProject "MaskBling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFC64192542FDEA008CD7F7;
+			productRefGroup = 4DFC64232542FDEA008CD7F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFC64212542FDEA008CD7F7 /* MaskBling */,
+				4DFC64372542FDED008CD7F7 /* MaskBlingTests */,
+				4DFC64422542FDEE008CD7F7 /* MaskBlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFC64202542FDEA008CD7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC64322542FDED008CD7F7 /* LaunchScreen.storyboard in Resources */,
+				4DFC642F2542FDED008CD7F7 /* Assets.xcassets in Resources */,
+				4DFC642D2542FDEA008CD7F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC64362542FDED008CD7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC64412542FDEE008CD7F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFC641E2542FDEA008CD7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BD20B2543141300FC9BCA /* EmojiNode.swift in Sources */,
+				4DFC642A2542FDEA008CD7F7 /* MaskViewController.swift in Sources */,
+				4DD1C7E12558148D0074C5FF /* FaceMaskNode.swift in Sources */,
+				4D0BD20C2543141300FC9BCA /* StringExtension.swift in Sources */,
+				4DFC64262542FDEA008CD7F7 /* AppDelegate.swift in Sources */,
+				4DFC64282542FDEA008CD7F7 /* SceneDelegate.swift in Sources */,
+				4DD1C7DC2556FD030074C5FF /* MaskNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC64342542FDED008CD7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC643D2542FDED008CD7F7 /* Emoji_BlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFC643F2542FDEE008CD7F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFC64482542FDEE008CD7F7 /* Emoji_BlingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DFC643A2542FDED008CD7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFC64212542FDEA008CD7F7 /* MaskBling */;
+			targetProxy = 4DFC64392542FDED008CD7F7 /* PBXContainerItemProxy */;
+		};
+		4DFC64452542FDEE008CD7F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DFC64212542FDEA008CD7F7 /* MaskBling */;
+			targetProxy = 4DFC64442542FDEE008CD7F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DFC642B2542FDEA008CD7F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFC642C2542FDEA008CD7F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFC64302542FDED008CD7F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFC64312542FDED008CD7F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFC644A2542FDEE008CD7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFC644B2542FDEE008CD7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFC644D2542FDEE008CD7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R89GUT49QA;
+				INFOPLIST_FILE = "Emoji Bling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-Bling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFC644E2542FDEE008CD7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R89GUT49QA;
+				INFOPLIST_FILE = "Emoji Bling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-Bling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DFC64502542FDEE008CD7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emoji BlingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-BlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskBling.app/MaskBling";
+			};
+			name = Debug;
+		};
+		4DFC64512542FDEE008CD7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emoji BlingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-BlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskBling.app/MaskBling";
+			};
+			name = Release;
+		};
+		4DFC64532542FDEE008CD7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emoji BlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-BlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emoji Bling";
+			};
+			name = Debug;
+		};
+		4DFC64542542FDEE008CD7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Emoji BlingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurentazarnouche.Emoji-BlingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Emoji Bling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFC641D2542FDEA008CD7F7 /* Build configuration list for PBXProject "MaskBling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC644A2542FDEE008CD7F7 /* Debug */,
+				4DFC644B2542FDEE008CD7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFC644C2542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC644D2542FDEE008CD7F7 /* Debug */,
+				4DFC644E2542FDEE008CD7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFC644F2542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC64502542FDEE008CD7F7 /* Debug */,
+				4DFC64512542FDEE008CD7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFC64522542FDEE008CD7F7 /* Build configuration list for PBXNativeTarget "MaskBlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFC64532542FDEE008CD7F7 /* Debug */,
+				4DFC64542542FDEE008CD7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFC641A2542FDEA008CD7F7 /* Project object */;
+}
